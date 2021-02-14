@@ -1,0 +1,519 @@
+﻿<!doctype html>
+<html class="no-js " lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="description" content="Persuasive Goals Visualisation.">
+<title>Persuasive Goals Visualisation</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+
+<!-- Custom Css -->
+<link rel="stylesheet" href="assets/css/style.min.css">
+<style>
+
+
+
+.SAG-Today , .OAG-Today{
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke-linecap: round;
+  width: 300px;
+    height: 300px;
+}
+
+
+.SAG-Yesterday, .OAG-Yesterday {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke-linecap: round;
+  width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.TAG-Today {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke-linecap: round;
+  width: 300px;
+    height: 300px;
+}
+
+.TAG-Yesterday {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke-linecap: round;
+  width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 999;
+   
+}
+  
+.dotted-circle{
+  stroke-dasharray: 5;
+}
+
+.TAG-form .card, .SAG-form .card, .OAG-form .card{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 10px;
+}
+
+.TAG-form .card .card-body, 
+.SAG-form .card .card-body, 
+.OAG-form .card .card-body{
+    min-height: auto;
+}
+.goal-starter {
+    z-index: 9999;
+}
+
+.previous-goal .bg-warning{
+    background-color: #5FB5FD !important;
+}
+.next-goal .bg-warning{
+    background-color:#3A6ED8 !important;
+}
+.previous-goal-other .bg-warning{
+    background-color: #FF7723 !important;
+}
+
+   </style>
+</style>
+</head>
+
+<body class="theme-blue">
+
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <div class="loader">
+       
+        <h2>Loading...</h2>
+    </div>
+</div>
+
+
+
+<!-- Left Sidebar -->
+<aside id="leftsidebar" class="sidebar">
+    <div class="navbar-brand">
+        <button class="btn-menu ls-toggle-btn" type="button"><i class="zmdi zmdi-menu"></i></button>
+        <a href="index.html"><span class="">Persuasive<br/>Goals<br/>Visualisation</span></a>
+    </div>
+    <div class="menu">
+        <ul class="list">
+            
+            <li class="active open"><a href="index.html"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
+            <li><a href="documentation.html"><i class="zmdi zmdi-assignment"></i><span>Documentation</span></a></li>
+            <li><a href="about.html"><i class="zmdi zmdi-account"></i><span>About</span></a></li>
+            
+         
+        </ul>
+    </div>
+</aside>
+
+
+
+<!-- Main Content -->
+
+<section class="content">
+    <div class="block-header">
+        <div class="row">
+            <div class="col-lg-7 col-md-6 col-sm-12" >
+                <h2>Persuasive Goals Visualisation</h2>
+
+                <button class="btn btn-primary btn-icon mobile_menu" type="button"><i class="zmdi zmdi-sort-amount-desc"></i></button>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container-fluid">
+     
+        <div class="row clearfix">
+            <div class="col-md-12 col-lg-6" id="TAG">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Task-Approach Goal</strong> TAG</h2>
+                                             
+                    </div>
+                    <div class="body ">
+                       <div class="card text-center">
+                        
+                        <svg class="TAG-Yesterday " >
+                            
+                            <!-- <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="101" cx="120" cy="120"/> -->
+                            <!-- <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="119" cx="120" cy="120"/> -->
+                            <circle class="progress-ring-circle" stroke="#5FB5FD" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                            <!-- <circle class="goal-starter"  fill="#5FB5FD" r="15" cx="290" cy="150">Lorem Ipsum</circle> -->
+                            </svg>
+                        
+                        <svg class="TAG-Today" >
+                            <circle class="" stroke="#F1F1F1" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                            <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="131" cx="150" cy="150"/>
+                            <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent"r="149" cx="150" cy="150"/>
+                            <circle class="progress-ring-circle" stroke="#3A6ED8" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                            </svg>
+
+                       </div>
+                       <div class="">
+
+                        <form Class="TAG-form">
+
+                         
+                              <div class="card next-goal">
+                                <div class="card-header bg-warning text-white">
+                                    Today’s Steps
+                                </div>
+                                <div class="card-body">
+                               <!-- <button onclick="getRandomInt(6000,10000)">Try it</button> -->
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInputx">Today’s Steps<br/>(Number of Steps)</label>
+                                                <input class=" form-control TAG-Today-Input-steps" id="TAG-Todays-Steps" value="9000" type="number" step="100" min="100" max="10000" placeholder="Progress" onchange="StepsToPercentage(this)">
+                                                
+                                              </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">Today’s Steps<br/>(Percentage)</label>
+                                                <input class=" form-control TAG-Today-Input" id="TAG-Todays-Percent" value="75" type="number" step="1" min="0" max="100" placeholder="Progress" onchange="PercentageToSteps(this)">
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                         
+                              <div class="card previous-goal">
+                                <div class="card-header bg-warning text-white">
+                                    Today’s Steps Goal
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label >Today’s Steps Goal<br/>(Number of Steps)</label>
+                                                <input class=" form-control TAG-Yesterday-Input-steps" id="TAG-Yesterday-Steps" value="5400" type="number" step="100" min="100" max="10000" onchange="StepsToPercentage(this)" >
+                                                
+                                              </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">Today’s Steps Goal<br/>(Percentage)</label>
+                                                <input class=" form-control TAG-Yesterday-Input" id="TAG-Yesterday-Percent" value="45" type="number" step="1" min="0" max="100" placeholder="Progress" onchange="PercentageToSteps(this)">
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                          
+                            
+                          </form>
+
+                      
+
+                       </div>
+
+                            
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12" id="SAG">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Self-Approach Goal </strong> SAG</h2>
+                    </div>
+                    <div class="body ">
+                        <div class="card text-center">
+                         
+                         <svg class="SAG-Yesterday " >
+                             <circle class="" stroke="#F1F1F1" stroke-width="20" fill="transparent" r="110" cx="120" cy="120"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="101" cx="120" cy="120"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="119" cx="120" cy="120"/>
+                             <circle class="progress-ring-circle" stroke="#5FB5FD" stroke-width="20" fill="transparent" r="110" cx="120" cy="120"/>
+                             </svg>
+                         
+                         <svg class="SAG-Today" >
+                             <circle class="" stroke="#F1F1F1" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="131" cx="150" cy="150"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent"r="149" cx="150" cy="150"/>
+                             <circle class="progress-ring-circle" stroke="#3A6ED8" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                             </svg>
+ 
+                        </div>
+                        <div class="">
+ 
+                         <form Class="SAG-form">
+
+                          
+                               <div class="card next-goal">
+                                 <div class="card-header bg-warning text-white">
+                                   Today's Steps
+                                 </div>
+                                 <div class="card-body">
+                                     <div class="row">
+                                         <div class="col">
+                                             <div class="form-group">
+                                                 <label for="formGroupExampleInputx">Today's Steps<br/>(Number of Steps)</label>
+                                                 <input class=" form-control SAG-Today-Input-steps" id="SAG-Todays-Steps" value="9000" type="number" step="100" min="100" max="10000" placeholder="Progress" onchange="StepsToPercentage(this)" >
+                                                 
+                                               </div>
+                                         </div>
+                                         <div class="col">
+                                             <div class="form-group">
+                                                 <label for="formGroupExampleInput">Today's Steps<br/>(Percentage)</label>
+                                                 <input class=" form-control SAG-Today-Input" id="SAG-Todays-Percent" value="75" type="number" step="1" min="0" max="100" placeholder="Progress" onchange="PercentageToSteps(this)">
+                                                 
+                                               </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                               </div>
+                               <div class="card previous-goal">
+                                <div class="card-header bg-warning text-white">
+                                  Yesterday's Steps
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label >Yesterday's Steps<br/>(Number of Steps)</label>
+                                                <input class=" form-control SAG-Yesterday-Input-steps" id="SAG-Yesterday-Steps" value="5400" type="number" step="100" min="100" max="10000" onchange="StepsToPercentage(this)" >
+                                                
+                                              </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">Yesterday's Steps<br/>(Percentage)</label>
+                                                <input class=" form-control SAG-Yesterday-Input" id="SAG-Yesterday-Percent" value="45" type="number" step="1" min="0" max="100" placeholder="Progress" onchange="PercentageToSteps(this)">
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                             
+                           
+                             
+                           </form>
+ 
+                       
+ 
+                        </div>
+ 
+                             
+                         
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12" id="OAG">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Other-Approach Goal </strong> OAG</h2>
+                    </div>
+                    <div class="body ">
+                        <div class="card text-center">
+                         
+                         <svg class="OAG-Yesterday " >
+                             <circle class="" stroke="#F1F1F1" stroke-width="20" fill="transparent" r="110" cx="120" cy="120"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="101" cx="120" cy="120"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="119" cx="120" cy="120"/>
+                             <circle class="progress-ring-circle" stroke="#FF7723" stroke-width="20" fill="transparent" r="110" cx="120" cy="120"/>
+                             </svg>
+                         
+                         <svg class="OAG-Today" >
+                             <circle class="" stroke="#F1F1F1" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent" r="131" cx="150" cy="150"/>
+                             <circle class="dotted-circle" stroke="#BABABA"  stroke-width="1" fill="transparent"r="149" cx="150" cy="150"/>
+                             <circle class="progress-ring-circle" stroke="#3A6ED8" stroke-width="20" fill="transparent" r="140" cx="150" cy="150"/>
+                             </svg>
+ 
+                        </div>
+                        <div class="">
+ 
+                         <form class="OAG-form">
+
+                          
+                               <div class="card next-goal">
+                                 <div class="card-header bg-warning text-white">
+                                    Your Steps
+                                 </div>
+                                 <div class="card-body">
+                                     <div class="row">
+                                         <div class="col">
+                                             <div class="form-group">
+                                                 <label for="formGroupExampleInputx">Your Steps<br/>(Number of Steps)</label>
+                                                 <input class=" form-control OAG-Today-Input-steps" id="OAG-Todays-Steps" value="9000" type="number" step="100" min="100" max="10000" placeholder="Progress" >
+                                                 
+                                               </div>
+                                         </div>
+                                         <div class="col">
+                                             <div class="form-group">
+                                                 <label for="formGroupExampleInput">Your Steps<br/>(Percentage)</label>
+                                                 <input class=" form-control OAG-Today-Input" id="OAG-Todays-Percent" value="75" type="number" step="1" min="0" max="100" placeholder="Progress" >
+                                                 
+                                               </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                               </div>
+                          
+                               <div class="card previous-goal-other">
+                                <div class="card-header bg-warning text-white">
+                                  Others Average Steps
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label >Average Step Count of Others<br/>(Number of Steps)</label>
+                                                <input class=" form-control OAG-Yesterday-Input-steps" id="OAG-Yesterday-Steps" value="5400" type="number" step="100" min="100" max="10000" onchange="StepsToPercentage(this)" >
+                                                
+                                              </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">Average Step Count of Others<br/>(Percentage)</label>
+                                                <input class=" form-control OAG-Yesterday-Input" id="OAG-Yesterday-Percent" value="45" type="number" step="1" min="0" max="100" placeholder="Progress" onchange="PercentageToSteps(this)">
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                           
+                             
+                           </form>
+ 
+                       
+ 
+                        </div>
+ 
+                             
+                         
+                     </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+</section>
+
+
+<!-- Jquery Core Js --> 
+<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js ( jquery.v3.2.1, Bootstrap4 js) --> 
+<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- slimscroll, waves Scripts Plugin Js -->
+
+
+
+<script src="assets/bundles/mainscripts.bundle.js"></script>
+
+<script>
+
+    // var circle = document.querySelector('.todays-step-goal .progress-ring-circle');
+    // var circle = document.querySelector('.todays-step-goal .progress-ring-circle');
+
+
+//Task Arrproach Goals
+    var TAG_Yesterday = document.querySelector('.TAG-Yesterday .progress-ring-circle');
+    var TAG_Yesterday_Input = document.querySelector('.TAG-Yesterday-Input');
+    var Previous_Steps = document.querySelector('.TAG-Yesterday-Input-steps');
+
+    var TAG_Today = document.querySelector('.TAG-Today .progress-ring-circle');
+    var TAG_Today_Input = document.querySelector('.TAG-Today-Input');
+    var Next_Steps = document.querySelector('.TAG-Today-Input-steps');
+
+
+    generateChart(TAG_Today, TAG_Today_Input, Next_Steps );
+    generateChart(TAG_Yesterday, TAG_Yesterday_Input, Previous_Steps);
+
+//Self Arrproach Goals
+    var SAG_Yesterday = document.querySelector('.SAG-Yesterday .progress-ring-circle');
+    var SAG_Yesterday_Input = document.querySelector('.SAG-Yesterday-Input');
+    var Yesterday_Steps = document.querySelector('.SAG-Yesterday-Input-steps');
+
+    var SAG_Today = document.querySelector('.SAG-Today .progress-ring-circle');
+    var SAG_Today_Input = document.querySelector('.SAG-Today-Input');
+    var Todays_Steps = document.querySelector('.SAG-Today-Input-steps');
+
+    generateChart(SAG_Today, SAG_Today_Input, Todays_Steps );
+    generateChart(SAG_Yesterday, SAG_Yesterday_Input, Yesterday_Steps);
+
+//Other Arrproach Goals
+var OAG_Yesterday = document.querySelector('.OAG-Yesterday .progress-ring-circle');
+    var OAG_Yesterday_Input = document.querySelector('.OAG-Yesterday-Input');
+    var Oesterday_Steps = document.querySelector('.OAG-Yesterday-Input-steps');
+
+    var OAG_Today = document.querySelector('.OAG-Today .progress-ring-circle');
+    var OAG_Today_Input = document.querySelector('.OAG-Today-Input');
+    var Oodays_Steps = document.querySelector('.OAG-Today-Input-steps');
+
+    generateChart(OAG_Today, OAG_Today_Input, Oodays_Steps );
+    generateChart(OAG_Yesterday, OAG_Yesterday_Input, Oesterday_Steps);
+
+
+
+
+function generateChart(circle, form_input, steps_input) {
+var radius = circle.r.baseVal.value;
+var circumference = radius * 2 * Math.PI;
+circle.style.strokeDasharray = `${circumference} ${circumference}`;
+circle.style.strokeDashoffset = `${circumference}`;
+
+function setProgress(percent) {
+  const offset = circumference - percent / 100 * circumference;
+  circle.style.strokeDashoffset = offset;
+}
+
+const input = form_input;
+const input_steps = steps_input;
+setProgress(input.value);
+
+
+input.addEventListener('change', function(e) {
+  if (input.value < 101 && input.value > -1) {
+    setProgress(input.value);
+    input_steps.value = input.value*120;
+    
+  }  
+})
+
+input_steps.addEventListener('change', function(e) {
+  if (input_steps.value < 120001 && input.value > -1) {
+    setProgress(input_steps.value/120);
+    input.value = input_steps.value/120;
+  }  
+})
+
+}
+
+
+///Randomiser
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  //return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+  document.getElementById("TAG-Todays-Steps").value = Math.floor(Math.random() * (max - min) + min);
+  alert(document.getElementById("TAG-Todays-Steps").value);
+  setProgress(Math.floor(Math.random() * (max - min) + min)/120);
+}
+
+
+
+
+    </script> 
+</body>
+</html>

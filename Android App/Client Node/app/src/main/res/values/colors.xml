@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="tagAccent">#3A6ED8</color>
+    <color name="sagAccent">#5FB5FD</color>
+    <color name="oagAccent">#FF7723</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="greyAccent">#F1F1F1</color>
+    <color name="colorGreen">#63B702</color>
+
+</resources>

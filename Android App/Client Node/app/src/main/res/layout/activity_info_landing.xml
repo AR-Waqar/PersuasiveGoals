@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoLanding">
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+
+        android:background="@drawable/app_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:background="@drawable/app_bg_fore">
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="@string/purpose"
+
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="30dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/purpose2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+
+
+                    android:text="@string/privacyPolicy"
+                    android:textColor="@color/colorBlack" />
+                <TextView
+                    android:id="@+id/P2Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P2Title"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/P2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P2"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/P3Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P3Title"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/P3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P3"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/P4Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P4Title"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/P4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P4"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/P5Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P5Title"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/P5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/P5"
+                    android:textColor="@color/colorBlack" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!--<LinearLayout
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+            <EditText
+                android:id="@+id/burned"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Burn."
+                android:inputType="number"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addBurned"
+                android:text="Add" />
+
+            <EditText
+                android:id="@+id/consumed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cons."
+                android:inputType="number"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addConsumed"
+                android:text="Add" />
+        </LinearLayout>-->
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

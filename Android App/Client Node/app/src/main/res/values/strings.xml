@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Goals</string>
+    <string name="tag">Task-Approach Goals</string>
+    <string name="sag">Self-Approach Goals</string>
+    <string name="oag">Other-Approach Goals</string>
+
+    <string name="txt_tag_steps">Today’s Steps</string>
+    <string name="txt_tag_goal">Today’s Step Goal</string>
+    <string name="txt_tag_goal_edit"><u>Edit - Today’s Step Goal</u></string>
+
+    <string name="txt_sag_steps">Today’s Steps</string>
+    <string name="txt_sag_goal">Yesterday\'s Steps </string>
+
+    <string name="txt_oag_steps">Your Steps</string>
+    <string name="txt_oag_goal">Others Average Steps</string>
+
+    <string name="txt_steps_cycle">Steps Cycle</string>
+    <string name="txt_steps_count">12,000 Steps</string>
+
+    <string name="txt_steps_fixed_count">8500</string>
+    <string name="txt_steps_fixed_count2">5500</string>
+
+
+    <string name="pie_chart_title">Calories Burned vs. Calories Consumed</string>
+    <string name="inside_title">Input the \n numbers below!</string>
+    <string name="burn">Burn.</string>
+    <string name="cons">Cons.</string>
+    <string name="add">Add</string>
+    <string name="purpose">General information</string>
+    <string name="privacyPolicyTitle">Data Processing and  Privacy Policy</string>
+    <string name="privacyPolicy">The Android App named as Goals is part of a thesis at the German Research Center for Artificial Intelligence (DFKI). Voluntary participation and freely given consent Participation in the study is voluntary.\n\nThe consent to participate in this study can be revoked at any time and without giving reasons until the end of the data collection process by uninstalling the Android application from your phone.\n\nAfter the end of data collection, the statutory rights of revocation, information, correction, blocking and deletion can no longer be exercised because the data can no longer be attributed to the data subject.
+    </string>
+    <string name="P2Title">What data do we collect from you?</string>
+    <string name="P2">
+    After consenting to the collection of data, the following data are collected and processed anonymously:\n\nDaily Step count based on your physical activity recorded by your phone and device ID of your phone. The data recorded on phone is anonymous and we don’t know which data belongs to which phone while the device is just a unique identifier.
+    </string>
+    <string name="P3Title">What do we use your data for?</string>
+    <string name="P3">
+        The results and data are used exclusively for scientific research purposes and will be published anonymously as part of the final thesis and as a scientific publication of this study. They can also be processed anonymously for other scientific research purposes.\n\nThe student, identified as Atiq-Ur-Rehman Waqar, receives access to the anonymous data record exclusively for the evaluation within the scope of his thesis.
+    </string>
+    <string name="P4Title">Contact Person</string>
+    <string name="P4">
+        The DFKI is responsible for carrying out this study. \nContact person at DFKI is \n\nMaximilian Altmeyer\nmaximilian.altmeyer@dfki.de.\n\nIf you have any questions that are not answered in this privacy statement, or if you would like further information on data protection, please contact our data protection officer (datenschutz@dfki.de).
+    </string>
+    <string name="P5Title">Right of Appeal</string>
+    <string name="P5">
+        You have the right to complain to a supervisory authority if you are of the opinion that the processing of your personal data violates statutory data protection regulations.
+    </string>
+
+    <string name="GoalsStepValue">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>5000</item>
+         <item>6000</item>
+    </string>
+    <string name="title_activity_tag_form">tagForm</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_sag_form">sagForm</string>
+    <string name="title_activity_oag_form">oagForm</string>
+
+</resources>

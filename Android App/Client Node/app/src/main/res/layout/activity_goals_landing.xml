@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoalsLanding">
+
+
+    <Button
+        android:id="@+id/WelcomeBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="20dp"
+        android:text="Welcome"
+        android:visibility="invisible"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/displayTag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:visibility="invisible"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="20dp"
+        android:text="Task-Approach Goals"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeBtn" />
+
+    <Button
+        android:id="@+id/displayTagForm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:visibility="invisible"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="20dp"
+        android:text="TAG Form"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTag" />
+
+    <Button
+        android:id="@+id/displaySag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="20dp"
+        android:visibility="invisible"
+        android:text="Self-Approach Goals"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTagForm" />
+
+    <Button
+        android:id="@+id/displaySagForm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+
+
+        android:padding="20dp"
+        android:text="SAG Form"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaySag" />
+
+    <Button
+        android:id="@+id/displayOag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="20dp"
+        android:visibility="invisible"
+        android:text="Other-Approach Goals"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaySagForm" />
+
+    <Button
+        android:id="@+id/displayOagForm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+        android:visibility="invisible"
+        android:padding="20dp"
+        android:text="OAG Form"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayOag" />
+
+
+    <Button
+        android:id="@+id/thankYouBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="20dp"
+        android:text="Thank You"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayOagForm" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

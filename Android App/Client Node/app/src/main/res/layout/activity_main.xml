@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7F7"
+    tools:context=".TagActivity">
+
+
+    <TableLayout
+        android:id="@+id/simpleTableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"
+
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toTopOf="@+id/simpleTableLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"> <!-- stretch the second column of the layout-->
+
+        <!-- first row of the table layout-->
+        <TableRow
+
+            android:id="@+id/firstRowxy"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp">
+
+            <!-- first element of the row-->
+
+
+            <TextView
+
+                android:id="@+id/test2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center_vertical|left"
+                android:text="@string/txt_steps_cycle"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:id="@+id/test3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center_vertical|left"
+
+                android:text="@string/txt_steps_count"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/simpleTableLayout1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/tag_bg"
+        android:stretchColumns="2"
+        app:layout_constraintBottom_toTopOf="@+id/simpleTableLayout0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"> <!-- stretch the second column of the layout-->
+
+        <!-- first row of the table layout-->
+        <TableRow
+
+            android:id="@+id/firstRowx"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp">
+
+            <!-- first element of the row-->
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                app:srcCompat="@mipmap/tag_user_foreground"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <TextView
+
+                android:id="@+id/test2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center_vertical|left"
+                android:text="@string/txt_tag_steps"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:id="@+id/TAG_Step_Value"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center_vertical"
+                android:layoutDirection="rtl"
+                android:paddingRight="20dp"
+                android:text="@string/txt_steps_fixed_count"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/simpleTableLayout0"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/tag_goal_bg"
+        android:stretchColumns="2"
+        app:layout_constraintBottom_toTopOf="@+id/simpleTableLayout0z"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"> <!-- stretch the second column of the layout-->
+
+        <!-- first row of the table layout-->
+        <TableRow
+
+            android:id="@+id/firstRow"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp">
+
+            <!-- first element of the row-->
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                app:srcCompat="@mipmap/tag_goal_foreground"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <TextView
+
+                android:id="@+id/test22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/comfortaa"
+                android:gravity="center_vertical|left"
+                android:text="@string/txt_tag_goal"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+
+            <TextView
+
+                android:id="@+id/TAG_Step_Goal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center_vertical"
+                android:layoutDirection="rtl"
+                android:paddingRight="20dp"
+                android:text="@string/txt_steps_fixed_count2"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:id="@+id/simpleTableLayout0z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"> <!-- stretch the second column of the layout-->
+
+        <!-- first row of the table layout-->
+
+    </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+
+        android:layout_height="300dp"
+        android:background="@drawable/app_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/app_bg_fore">
+
+
+            <!-- Doughnut chart starts here -->
+            <FrameLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <!-- ProgressBar that represents a total of 100% -->
+
+                <ProgressBar
+                    android:id="@+id/background_progressbar22"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/ag_bg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/TAG_Step_Today_Circle"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:indeterminate="false"
+                    android:max="12000"
+                    android:progress="10000"
+                    android:progressDrawable="@drawable/tag_full"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- ProgressBar that represents a chart slice, where "android:progress" is the % value of the slice -->
+
+                <!-- The text that goes in a center of the chart -->
+
+                <ProgressBar
+                    android:id="@+id/TAG_Step_Goal_Circle"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:indeterminate="false"
+                    android:max="12000"
+                    android:progress="5000"
+
+                    android:progressDrawable="@drawable/tag_progress"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </FrameLayout>
+            <!-- Doughnut chart ends here -->
+
+            <!--<LinearLayout
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+            <EditText
+                android:id="@+id/burned"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Burn."
+                android:inputType="number"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addBurned"
+                android:text="Add" />
+
+            <EditText
+                android:id="@+id/consumed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cons."
+                android:inputType="number"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addConsumed"
+                android:text="Add" />
+        </LinearLayout>-->
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <!--    <TextView-->
+<!--        android:id="@+id/tv_steps2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="0"-->
+<!--        android:textSize="40dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

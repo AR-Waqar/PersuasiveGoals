@@ -50,6 +50,7 @@ Please follow following steps to run the application
     1. In the toolbar, select the device that you want to run your app on from the target device drop-down menu.
     <img src="https://developer.android.com/studio/images/run/deploy-run-app.png" width="80%">
 
+[Image Source](https://developer.android.com/training/basics/firstapp/running-app) 
 
 > #### Android Application - Web Client
 

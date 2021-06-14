@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2424px" height="1978px" viewBox="0 0 2424 1978" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Self-Approach Goal</title>
+    <defs>
+        <rect id="path-1" x="0.5" y="0" width="2289" height="1332" rx="93"></rect>
+        <filter x="-2.6%" y="-4.5%" width="105.2%" height="109.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M1149.5,159 C1445.24848,159 1685,398.751516 1685,694.5 C1685,990.248484 1445.24848,1230 1149.5,1230 C853.751516,1230 614,990.248484 614,694.5 C614,398.751516 853.751516,159 1149.5,159 Z M1149.5,219 C886.888601,219 674,431.888601 674,694.5 C674,957.111399 886.888601,1170 1149.5,1170 C1412.1114,1170 1625,957.111399 1625,694.5 C1625,431.888601 1412.1114,219 1149.5,219 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1071" height="1071" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M535.5,16 C831.248484,16 1071,255.751516 1071,551.5 C1071,847.248484 831.248484,1087 535.5,1087 C239.751516,1087 0,847.248484 0,551.5 C0,255.751516 239.751516,16 535.5,16 Z M535.5,76 C272.888601,76 60,288.888601 60,551.5 C60,814.111399 272.888601,1027 535.5,1027 C798.111399,1027 1011,814.111399 1011,551.5 C1011,288.888601 798.111399,76 535.5,76 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1071" height="1071" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M536.5,119 C775.363154,119 969,312.636846 969,551.5 C969,790.363154 775.363154,984 536.5,984 C297.636846,984 104,790.363154 104,551.5 C104,312.636846 297.636846,119 536.5,119 Z M536.5,179 C330.773931,179 164,345.773931 164,551.5 C164,757.226069 330.773931,924 536.5,924 C742.226069,924 909,757.226069 909,551.5 C909,345.773931 742.226069,179 536.5,179 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="865" height="865" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M40.1393489,47.5813965 C44.9807869,42.7429136 53.6148962,34.1140743 57.128402,30.6027131 C57.840003,29.860884 58.0867876,29.5567179 58.090444,29.0457565 C58.0941005,28.5347951 57.8412803,28.2592282 57.1138446,27.4882131 C53.554983,23.9345553 44.788407,15.1807981 39.8742325,10.2738091 C37.5373822,7.95841093 34.1094954,11.3862978 36.4278169,13.7178722 C41.5566784,18.8271669 51.8144016,29.0457563 51.8144016,29.0457563 C51.8144016,29.0457563 41.7369827,39.1050568 36.6982732,44.1347071 C34.1960685,46.6374368 37.6249342,50.066303 40.1393489,47.5813965 Z" id="path-9"></path>
+        <path d="M546.139349,167.581396 C550.980787,162.742914 559.614896,154.114074 563.128402,150.602713 C563.840003,149.860884 564.086788,149.556718 564.090444,149.045756 C564.094101,148.534795 563.84128,148.259228 563.113845,147.488213 C559.554983,143.934555 550.788407,135.180798 545.874233,130.273809 C543.537382,127.958411 540.109495,131.386298 542.427817,133.717872 C547.556678,138.827167 557.814402,149.045756 557.814402,149.045756 C557.814402,149.045756 547.736983,159.105057 542.698273,164.134707 C540.196069,166.637437 543.624934,170.066303 546.139349,167.581396 Z" id="path-11"></path>
+        <path d="M330,0 C341.045695,-2.02906125e-15 350,8.954305 350,20 L350,100 L386,118 L350,136 L350,215 C350,226.045695 341.045695,235 330,235 L20,235 C8.954305,235 1.3527075e-15,226.045695 0,215 L0,20 C-1.3527075e-15,8.954305 8.954305,2.02906125e-15 20,0 L330,0 Z" id="path-13"></path>
+        <filter x="-16.8%" y="-23.4%" width="133.7%" height="155.3%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.22745098   0 0 0 0 0.431372549   0 0 0 0 0.847058824  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M369,0 C380.045695,-2.02906125e-15 389,8.954305 389,20 L389,265 C389,276.045695 380.045695,285 369,285 L108.5,285 L91,320 L73.5,285 L50,285 C38.954305,285 30,276.045695 30,265 L30,20 C30,8.954305 38.954305,2.02906125e-15 50,0 L369,0 Z" id="path-15"></path>
+        <filter x="-18.1%" y="-17.2%" width="136.2%" height="140.6%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.349019608   0 0 0 0 0.662745098   0 0 0 0 0.929411765  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Self-Approach-Goal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#EBEBEB" x="0" y="0" width="2424" height="1978"></rect>
+        <text font-family="Comfortaa-Medium, Comfortaa" font-size="50" font-weight="400" fill="#000000">
+            <tspan x="955.775" y="423">Self-Approach Goal</tspan>
+        </text>
+        <text id="Design-Guidelines-to" font-family="Comfortaa-Medium, Comfortaa" font-size="40" font-weight="400" line-spacing="55" fill="#000000">
+            <tspan x="75" y="105">Design Guidelines to Increase the </tspan>
+            <tspan x="75" y="160">Persuasiveness of Achievement Goals</tspan>
+        </text>
+        <line x1="-287" y1="232" x2="2712" y2="232" id="Line-4" stroke="#979797" stroke-width="3" stroke-linecap="square"></line>
+        <text id="Updated-on:-14.06.20" font-family="Comfortaa-Medium, Comfortaa" font-size="40" font-weight="400" line-spacing="55" fill="#000000">
+            <tspan x="1890.84" y="105">Updated on: 14.06.2021</tspan>
+            <tspan x="2082.88" y="160">Concept v5.2</tspan>
+        </text>
+        <g id="Group-7" transform="translate(63.000000, 583.000000)">
+            <g id="Group-5">
+                <g id="TAG">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <use id="Oval-Copy" stroke="#BABABA" mask="url(#mask-4)" stroke-width="4" fill="#F1F1F1" fill-rule="nonzero" stroke-dasharray="11" xlink:href="#path-3"></use>
+                    <g id="Group" transform="translate(614.000000, 144.000000)">
+                        <use id="Oval-Copy-5" stroke="#BABABA" mask="url(#mask-6)" stroke-width="4" fill="#F1F1F1" fill-rule="nonzero" stroke-dasharray="11" xlink:href="#path-5"></use>
+                        <use id="Oval-Copy-6" stroke="#BABABA" mask="url(#mask-8)" stroke-width="4" fill="#F1F1F1" fill-rule="nonzero" stroke-dasharray="11" xlink:href="#path-7"></use>
+                        <path d="M534,104 C547.890275,104 560.310649,110.293395 568.565265,120.184326 L568.568745,120.170904 C792.456443,136.58037 969,323.423206 969,551.5 C969,790.363154 775.363154,984 536.5,984 C488.784259,984 442.873264,976.272962 399.950063,962.001935 L422,962 L421.994643,906.069599 C458.070287,917.711209 496.550731,924 536.5,924 C742.226069,924 909,757.226069 909,551.5 C909,355.851418 758.164726,195.432302 566.437038,180.185512 C558.249841,188.702845 546.743529,194 534,194 C509.147186,194 489,173.852814 489,149 C489,124.147186 509.147186,104 534,104 Z" id="Combined-Shape" fill="#5FB5FD" fill-rule="nonzero"></path>
+                        <g id="Group-Copy">
+                            <path d="M535,0 C548.835674,0 561.212981,6.24401498 569.467728,16.0678534 C849.390522,33.5822188 1071,266.161276 1071,550.5 C1071,846.248484 831.248484,1086 535.5,1086 C239.918512,1086 0.270770554,846.51916 0.000229288798,551.000932 L60.0032293,551 L60.0637034,558.363262 C64.2627443,817.347882 275.514715,1026 535.5,1026 C798.111399,1026 1011,813.111399 1011,550.5 C1011,298.660287 815.217578,92.5480082 567.552829,76.0632583 C559.358423,84.6527266 547.803673,90 535,90 C510.147186,90 490,69.8528137 490,45 C490,20.1471863 510.147186,0 535,0 Z" id="Combined-Shape" fill="#3A6ED8" fill-rule="nonzero"></path>
+                            <text id="0" font-family="Avenir-Medium, Avenir" font-size="55" font-weight="400" fill="#FFFFFF">
+                                <tspan x="505.71" y="63">0</tspan>
+                            </text>
+                            <g id="ic_chevron_right-copy" transform="translate(506.000000, 16.000000)">
+                                <rect id="Bg" stroke="#50E3C2" stroke-width="0.01" fill-opacity="0.01" fill="#030303" opacity="0.00999999978" x="0" y="0" width="58" height="58" rx="3"></rect>
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <use id="Shape" fill="#FFFFFF" xlink:href="#path-9"></use>
+                                <g id="Group" mask="url(#mask-10)">
+                                    <g transform="translate(17.000000, 0.000000)" id="🌈Color">
+                                        <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="24" height="58"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="0" font-family="Avenir-Medium, Avenir" font-size="55" font-weight="400" fill="#FFFFFF">
+                            <tspan x="505.71" y="167">0</tspan>
+                        </text>
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-11"></use>
+                    </g>
+                </g>
+                <circle id="Oval" fill="#3A6ED8" fill-rule="nonzero" cx="644" cy="695" r="30"></circle>
+                <circle id="Oval-Copy-2" fill="#FFFFFF" fill-rule="nonzero" cx="644" cy="695" r="23"></circle>
+                <polyline id="Path" stroke="#3A6ED8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="656 687 641.230769 704 632 696.444444"></polyline>
+                <g id="Group-6" transform="translate(993.000000, 1047.300000)">
+                    <path d="M30,60 C46.5685425,60 60,46.5685425 60,30 C60,13.4314575 46.5685425,0 30,0 C13.4314575,0 0,13.4314575 0,30 C0,46.5685425 13.4314575,60 30,60 Z" id="Oval" fill="#5FB5FD" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill="#5FB5FD" x="37" y="56" width="9" height="5"></rect>
+                    <circle id="Oval-Copy-4" fill="#FFFFFF" fill-rule="nonzero" cx="31" cy="30" r="23"></circle>
+                    <polyline id="Path-Copy" stroke="#5FB5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="43 22 28.2307692 39 19 31.4444444"></polyline>
+                </g>
+                <g id="Group-2" transform="translate(193.000000, 578.000000)">
+                    <g id="Combined-Shape-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use fill="#3A6ED8" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    </g>
+                    <g id="Group-4" transform="translate(123.000000, 22.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <g id="redo">
+                            <path d="M97.9375157,40 L80.0624843,40 C78.923989,40 78,39.076011 78,37.9375157 C78,36.7990204 78.923989,35.8750315 80.0624843,35.8750315 L95.8750315,35.8750315 L95.8750315,20.0624843 C95.8750315,18.923989 96.7990204,18 97.9375157,18 C99.076011,18 100,18.923989 100,20.0624843 L100,37.9375157 C100,39.076011 99.076011,40 97.9375157,40 Z" id="Path" transform="translate(89.000000, 29.000000) rotate(29.000000) translate(-89.000000, -29.000000) "></path>
+                            <path d="M46.9981905,94 C21.0823488,94 0,72.9161224 0,47 C0,21.0831603 21.0823488,0 46.9981905,0 C69.0988715,0 88.8265514,14.9377899 93.9139104,35.5239562 C94.3018806,37.0981292 93.3423535,38.6923828 91.7639383,39.080368 C90.1898259,39.4676361 88.5956337,38.5080718 88.2076635,36.930313 C83.7628577,18.9366913 66.4318448,5.87500003 46.9981905,5.87500003 C24.3216497,5.87500003 5.87477381,24.3218688 5.87477381,47 C5.87477381,69.6774139 24.3216497,88.125 46.9981905,88.125 C57.9804031,88.125 68.2999827,83.8435363 76.0701456,76.0730744 C77.2182794,74.9256135 79.078529,74.9256135 80.2259457,76.0730744 C81.3733625,77.2205353 81.3733625,79.0808563 80.2259457,80.2290343 C71.3470913,89.1075133 59.546627,94 46.9981905,94 Z" id="Path"></path>
+                        </g>
+                        <g id="user-(4)" transform="translate(27.000000, 24.000000)">
+                            <path d="M20.754717,0 C14.3043774,0 9.05660377,5.24777358 9.05660377,11.6981132 C9.05660377,18.1484528 14.3043774,23.3962264 20.754717,23.3962264 C27.2050566,23.3962264 32.4528302,18.1484528 32.4528302,11.6981132 C32.4528302,5.24777358 27.2050566,0 20.754717,0 Z" id="Path"></path>
+                            <path d="M34.9303111,31.5944286 C31.6449778,28.25445 27.2896889,26.4150943 22.6666667,26.4150943 L17.3333333,26.4150943 C12.7104,26.4150943 8.35502222,28.25445 5.06968889,31.5944286 C1.80044444,34.9180313 0,39.3051798 0,43.9480242 C0,44.6852973 0.596977778,45.2830189 1.33333333,45.2830189 L38.6666667,45.2830189 C39.4030222,45.2830189 40,44.6852973 40,43.9480242 C40,39.3051798 38.1995556,34.9180313 34.9303111,31.5944286 Z" id="Path"></path>
+                        </g>
+                    </g>
+                    <text id="Today’s-Steps-7,500" font-family="Comfortaa-Medium, Comfortaa" font-size="36" font-weight="400" fill="#FFFFFF">
+                        <tspan x="53.864" y="152">Today’s Steps </tspan>
+                        <tspan x="137.114" y="200" font-family="Comfortaa-Bold, Comfortaa" font-weight="bold">7,500</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(941.000000, 712.000000)">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use fill="#5FB5FD" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    </g>
+                    <text id="Your-Step-Count-Yest" font-family="Comfortaa-Medium, Comfortaa" font-size="36" font-weight="400" fill="#FFFFFF">
+                        <tspan x="51.994" y="157">Your Step Count </tspan>
+                        <tspan x="113.986" y="205">Yesterday</tspan>
+                        <tspan x="160.588" y="253">5,500</tspan>
+                    </text>
+                </g>
+                <text id="10,000-Steps" font-family="Comfortaa-Medium, Comfortaa" font-size="55" font-weight="400" fill="#7A7A7A">
+                    <tspan x="766.2875" y="119">10,000 Steps</tspan>
+                </text>
+            </g>
+            <g id="user-(2)-copy" transform="translate(1104.000000, 730.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="45" cy="45" r="45"></circle>
+                <circle id="Oval-Copy-5" stroke="#5FB5FD" stroke-width="3.5" fill="#FFFFFF" cx="45" cy="45" r="39"></circle>
+                <path d="M68.5390773,41.45095 L35.5908928,25.7456333 L35.5908928,23.8166667 C35.5908928,23.36505 35.2345328,23 34.7954464,23 C34.35636,23 34,23.36505 34,23.8166667 L34,26.2666667 L34,53.2166667 L34,55.6666667 L34,71.1833333 C34,71.63495 34.35636,72 34.7954464,72 C35.2345328,72 35.5908928,71.63495 35.5908928,71.1833333 L35.5908928,56.2228167 L68.4953277,42.9511667 C68.7920292,42.8319333 68.9900954,42.5420167 68.9996407,42.2161667 C69.0091861,41.8895 68.8278243,41.5889667 68.5390773,41.45095 Z" id="Path" fill="#5FB5FD" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -35,7 +35,8 @@ The visual represents the structure of visualisations where X means the next act
 
 ### Android Application Demo
 > #### Android Application - Local Client
-Please follow following steps to run the application
+Quick way for local client demo is to install the APK file available at 'PersuasiveGoals/Android App/APK File'.
+The alternative way is to manually install the application from the source code. Please follow following steps to run the application
 1. Install [Android Studio](https://developer.android.com/studio) in your local machine
 1. Enable USB debugging in the [Developer options](https://developer.android.com/studio/debug/dev-options)  | [[Reference]](https://developer.android.com/training/basics/firstapp/running-app) 
     1. Open the Settings app.

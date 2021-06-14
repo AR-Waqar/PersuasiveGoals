@@ -6,7 +6,7 @@ Saarland Informatics Campus <br />
 Saarbrücken, Germany <br />
 
 # Published Article 
-Design Guidelines to Increase the Persuasiveness of Achievement Goals for Physical Activity
+[Design Guidelines to Increase the Persuasiveness of Achievement Goals for Physical Activity](https://umtl.cs.uni-saarland.de/paper_preprints/altmeyer_GamiFIN_2021-design-guidelines-persuasive-goals.pdf)
 
 # Authors
 [Maximilian Altmeyer](https://umtl.cs.uni-saarland.de/people/maximilian-altmeyer.html), [Pascal Lessel](https://umtl.cs.uni-saarland.de/people/pascal-lessel.html), [Atiq Ur Rehman Waqar](https://atiq.eu/), [Antonio Krüger](https://umtl.cs.uni-saarland.de/people/prof.-dr.-antonio-kr%C3%BCger.html)
